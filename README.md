@@ -1,1 +1,1 @@
-# promotion-FE
+# promotion-BE
