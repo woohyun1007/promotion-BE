@@ -1,29 +1,27 @@
 package com.example.firstproject.controller;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import com.example.firstproject.entity.User;
 import com.example.firstproject.service.UserService;
 
 @RestController
+@RequestMapping("/api")
+@CrossOrigin(origins = "http://localhost:3000")
 public class UserController {
-    @Autowired
-    private UserService userService;
 
-    @PostMapping("/api/test")
-    public void saveTestEntity(@RequestBody User user) {
-        System.out.println(user);
-        userService.saveUser(user);
+    private final UserService userService;
+
+    @Autowired
+    public UserController(UserService userService) {
+        this.userService = userService;
     }
 
-    @GetMapping("/api/test")
-    public List<User> getAllUsers() {
-        return userService.getAllUsers();
+    @PostMapping("/test")
+    public ResponseEntity<User> createUser(@RequestBody User user) {
+        User savedUser = userService.saveUser(user);
+        return ResponseEntity.ok(savedUser);
     }
 }
