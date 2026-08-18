@@ -17,13 +17,13 @@
 
 React Frontend와 Spring Boot Backend, MySQL Database를 연동하고 Docker를 이용해 애플리케이션 실행 환경을 구성했으며, Google Cloud Platform의 서버를 통해 실제 학술제에서 서비스를 운영했습니다.
 
-* 개발 형태: 2인 프로젝트
-* 담당 역할: Full Stack 개발
-* 서비스 대상: 강원대학교 미디어커뮤니케이션학과 학술제
-* 실제 서비스 사용자: 27명
-* 사용자 설문 만족도: 80% 이상
-* Frontend Repository: `다시,ON Frontend Repository URL`
-* Notion : `https://app.notion.com/p/ON-BE-3c0b883853bf8093b62ac56c255aa0df?source=copy_link`
+- 개발 형태: 2인 프로젝트
+- 담당 역할: Full Stack 개발
+- 서비스 대상: 강원대학교 미디어커뮤니케이션학과 학술제
+- 실제 서비스 사용자: 27명
+- 사용자 설문 만족도: 80% 이상
+- Frontend Repository: [다시,ON_FE](https://github.com/woohyun1007/promotionFE)
+- Notion : [다시,ON 상세 문서](https://app.notion.com/p/ON-BE-3c0b883853bf8093b62ac56c255aa0df?source=copy_link)
 
 ## 🛠 기술 스택
 
