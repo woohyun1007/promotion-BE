@@ -117,7 +117,7 @@ erDiagram
 ### 2. 저장소 복제
 
 ```bash
-git clone <다시ON_Backend_Repository_URL>
+git clone https://github.com/woohyun1007/promotion-BE
 cd promotionBE
 ```
 
