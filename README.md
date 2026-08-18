@@ -23,7 +23,7 @@ React Frontend와 Spring Boot Backend, MySQL Database를 연동하고 Docker를 
 * 실제 서비스 사용자: 27명
 * 사용자 설문 만족도: 80% 이상
 * Frontend Repository: `다시,ON Frontend Repository URL`
-* Notion : `다시,ON 상세 문서 URL`
+* Notion : `https://app.notion.com/p/ON-BE-3c0b883853bf8093b62ac56c255aa0df?source=copy_link`
 
 ## 🛠 기술 스택
 
@@ -187,13 +187,3 @@ pie
 ```
 
 개발 단계에서 끝나는 프로젝트가 아니라 React Frontend, Spring Boot Backend, MySQL Database를 실제 서버 환경에서 연동하고 사용자에게 서비스를 제공하는 과정까지 경험했습니다.
-
-## 📌 Future Improvements
-
-* Database 접속 정보 환경 변수 분리
-* DTO를 이용한 API Request / Response 계층 분리
-* Bean Validation 기반 입력값 검증
-* 공통 예외 처리 구조 추가
-* 테스트 코드 작성 및 API 테스트 강화
-* HTTPS 및 Reverse Proxy 적용
-* CI/CD 기반 자동 배포
