@@ -23,7 +23,7 @@ React Frontend와 Spring Boot Backend, MySQL Database를 연동하고 Docker를 
 - 실제 서비스 사용자: 27명
 - 사용자 설문 만족도: 80% 이상
 - Frontend Repository: [다시,ON_FE](https://github.com/woohyun1007/promotionFE)
-- Notion : [다시,ON 상세 문서](https://app.notion.com/p/ON-BE-3c0b883853bf8093b62ac56c255aa0df?source=copy_link)
+- Notion : [다시,ON_BE 상세 문서](https://app.notion.com/p/ON-BE-3c0b883853bf8093b62ac56c255aa0df?source=copy_link)
 
 ## 🛠 기술 스택
 
